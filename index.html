@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Challenge Encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <a href="https://www.aluracursos.com/"><img src="images/Logo.png" class="logo"></a>
+        </header>
+
+        <main>
+        <section>
+            <textarea id="text-area" class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aqui" onkeypress="forceLower(this);" onkeydown="forceLower(this);" onkeyup="forceLower(this);"></textarea>
+            <div>
+                <img src="images/Vector.png" alt="signo de exclamación" class="signo">
+                <h6 class="información">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick= "btnEncriptar();">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar();">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+                <textarea id="text-cifrado" class="mensaje" cols="20" rows="10" readonly></textarea>
+                <div>
+                    <button class="btn-copiar" onclick="btnCopiar();">Copiar</button>
+                </div>
+        </section>
+        </main>
+        <footer>Proyecto de Alura Latam - Oracle Next Education (ONE) - G6. Desarrollado por Juan Pablo Morales. Puedes ver mi proyecto en mi Github.<a href="https://www.linkedin.com/in/juan-pablo-morales-rodr%C3%ADguez-9967a4238/"><img src="images/linkedin.png" alt="logo linkedin" class="logo-linkedin"></a> <a href="https://github.com/sxcpablo"><img src="images/logotipo-de-github.png" alt="logo github" class="logo-github"></a></footer>  
+     <script src="app.js"></script>        
+    </body>
+</html>
