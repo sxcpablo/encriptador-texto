@@ -1,3 +1,8 @@
+link del proyecto.
+https://sxcpablo.github.io/encriptador-texto/
+
+
+Descripción.
 Desarrollo del challenge de Alura Latam.
 Desarrollo de una aplicación que encripta textos, así podrás intercambiar mensajes secretos con otras personas que sepan el secreto de la encriptación utilizada.
 
